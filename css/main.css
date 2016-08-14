@@ -409,7 +409,7 @@ a {
   text-decoration: none; }
 
 a:hover {
-  color: #777; }
+  color: #932828; }
 
 dl,
 ol,
@@ -563,6 +563,11 @@ body {
   background-color: #eee;
   min-height: 100%; }
 
+.body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
 .github-fork-ribbon:before, .github-fork-ribbon:after {
   background-color: #eee;
   border-color: #333; }
@@ -582,21 +587,21 @@ b, strong {
 .site-header {
   padding: 5px 0;
   font-size: 2rem;
-  line-height: 40px;
+  line-height: 32px;
   background-color: #333; }
   .site-header img {
     width: 3  0px;
     height: 30px; }
 
 .site-footer {
-  margin: 40px 0; }
+  margin: 20px 0; }
 
 .site-nav-link {
   padding-left: 20px; }
 
 .hero {
   padding: 40px;
-  min-height: 400px;
+  min-height: 360px;
   margin-bottom: 40px;
   background-color: #333;
   color: #ccc;
@@ -609,6 +614,9 @@ b, strong {
   text-align: center;
   line-height: 2.75rem;
   padding-bottom: 40px; }
+
+.page-content {
+  flex: 1; }
 
 .container {
   max-width: 80.0rem; }

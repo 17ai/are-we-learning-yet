@@ -17,7 +17,7 @@
   <link rel="canonical" href="http://arewelearningyet.com/irc/">
 </head>
 
-  <body>
+  <body class="body">
 
     <header class="site-header">
 
@@ -25,7 +25,7 @@
 
     
       <a class="site-title" href="/">
-        <img src="/images/rust-9000.png">
+        <img src="/images/rust-9000.png" style="vertical-align:middle;">
         Are we learning yet?
       </a>
     
@@ -61,20 +61,16 @@
 </header>
 
 
-    <div class="page-content">
-      <div class="wrapper">
-        <iframe src="https://kiwiirc.com/client/irc.mozilla.org:6697/#rust-machine-learning" style="border:0; width: 100%; height:90vh"></iframe>
-
-      </div>
+    <div class="page-content" style="display:flex;">
+        <div style="position: relative; flex: 1; display: flex; flex-grow: 1;">
+            <div style="position:absolute; z-index: -1; top: 80px; width:100%; text-align:center;">
+                Loading IRC widget for:<br><br><b>#rust-machine-learning</b> on <b>irc.mozilla.org</b>.
+            </div>
+            <iframe src="https://kiwiirc.com/client/irc.mozilla.org:6697/#rust-machine-learning" style="border:0; width: 100%;"></iframe>
+        </div>
     </div>
-
-    <footer class="site-footer">
-  <div class="container">
-    <div style="text-align: center;">2016 - Are we learning yet?</div>
-  </div>
-</footer>
-
-
   </body>
 
 </html>
+
+
