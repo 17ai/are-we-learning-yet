@@ -641,6 +641,15 @@ b, strong {
 a:hover .tile {
   background-color: #393939; }
 
+.green {
+  color: #81f300; }
+
+.yellow {
+  color: #ffee40; }
+
+.red {
+  color: #ff3e21; }
+
 .tile-green {
   border-color: #81f300; }
 
