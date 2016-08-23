@@ -17,10 +17,14 @@ body {
 
 a {
   color: #b33;
-  text-decoration: none; }
+  text-decoration: none;
+  outline: none; }
 
 a:hover {
   color: #932828; }
+
+a:active {
+  color: #7f2323; }
 
 .github-fork-ribbon:before, .github-fork-ribbon:after {
   background-color: #eee;

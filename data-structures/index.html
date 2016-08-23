@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Data Structures</title>
-  <meta name="description" content="The Rust ecosystem is full of a data structure implementations.You can find multi-dimensional arrays, matrices, graphs,and a large list of tree libraries.">
+  <meta name="description" content="The Rust ecosystem is full of a data structure implementationsthat may be useful in machine learning.You can find multi-dimensional arrays, matrices, graphs,...">
 
   <link rel="stylesheet" href="/css/flexboxgrid.min.css">
   <link rel="stylesheet" href="/css/main.css">
@@ -67,19 +67,20 @@
   </header>
 
   <div class="post-content">
-    <p>The Rust ecosystem is full of a data structure implementations.
+    <p>The Rust ecosystem is full of a data structure implementations
+that may be useful in machine learning.
 You can find multi-dimensional arrays, matrices, graphs,
 and a <a href="https://crates.io/search?q=trees">large list of tree libraries</a>.</p>
 
-<p><a href="https://crates.io/crates/num">num</a> has emerged as the cornerstone
-of numerical types, and a few other crates listed here show
+<p><a href="https://crates.io/crates/num">num</a> has emerged as a de facto choice
+for numerical types, and a few other crates listed here show
 promise, but most ML frameworks have opted to implement
-their own data structures, so it’s to early to answer
+their own data structures, so it’s too early to answer
 affirmatively to “Are we numpy yet?”</p>
 
-<p>The list below is quite lacking,
-so don’t neglect to search <a href="https://crates.io/">crates.io</a>
-for more specific data structures.</p>
+<p>The list below is still lacking,
+so for more specific data structures
+don’t forget to search <a href="https://crates.io/">crates.io</a>.</p>
 
   </div>
 
@@ -87,30 +88,46 @@ for more specific data structures.</p>
   
     <div>
       <hr>
-      <h3>bio</h3>
-      
-        <a href="https://crates.io/crates/bio"><img src="https://img.shields.io/crates/v/bio.svg?maxAge=2592000"></a>
-        <a href="https://crates.io/crates/bio"><img src="https://img.shields.io/crates/d/bio.svg?maxAge=2592000"></a>
-      
-      
-        <a href="https://github.com/rust-bio/rust-bio"><img src="https://img.shields.io/github/stars/rust-bio/rust-bio.svg?style=social&label=Star&maxAge=2592000"></a>
-      
-      
-        <a href="https://rust-bio.github.io/rust-bio/bio/index.html" style="font-size: small; vertical-align:middle;">[docs]</a>
-      
+      <h3>
+        bio
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/bio">crate</a> &middot;
+          <a href="https://github.com/rust-bio/rust-bio">repo</a> &middot;
+          <a href="https://rust-bio.github.io/rust-bio/bio/index.html">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/bio.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/bio.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/rust-bio/rust-bio.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
       <p>A bioinformatics library for Rust. This library provides implementations of many algorithms and data structures that are useful for bioinformatics.</p>
+
       <div style="font-size: small;">
+
+        
+          <b>License</b>: MIT
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
         
           <b>Last Commit</b>: 20 Aug 2016
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         
           <b>Last Published</b>: 18 Aug 2016
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         
           <b>Contributors</b>: 14
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <b>Open Issues</b>: 13
         
       </div>
@@ -118,30 +135,46 @@ for more specific data structures.</p>
   
     <div>
       <hr>
-      <h3>ndarray</h3>
-      
-        <a href="https://crates.io/crates/ndarray"><img src="https://img.shields.io/crates/v/ndarray.svg?maxAge=2592000"></a>
-        <a href="https://crates.io/crates/ndarray"><img src="https://img.shields.io/crates/d/ndarray.svg?maxAge=2592000"></a>
-      
-      
-        <a href="https://github.com/bluss/rust-ndarray"><img src="https://img.shields.io/github/stars/bluss/rust-ndarray.svg?style=social&label=Star&maxAge=2592000"></a>
-      
-      
-        <a href="https://bluss.github.io/rust-ndarray/" style="font-size: small; vertical-align:middle;">[docs]</a>
-      
+      <h3>
+        ndarray
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/ndarray">crate</a> &middot;
+          <a href="https://github.com/bluss/rust-ndarray">repo</a> &middot;
+          <a href="https://bluss.github.io/rust-ndarray/">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/ndarray.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/ndarray.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/bluss/rust-ndarray.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
       <p>An N-dimensional array for general elements and for numerics. Lightweight array views and slicing; views support chunking and splitting.</p>
+
       <div style="font-size: small;">
+
+        
+          <b>License</b>: MIT/Apache-2.0
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
         
           <b>Last Commit</b>: 19 Aug 2016
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         
           <b>Last Published</b>: 14 Aug 2016
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         
           <b>Contributors</b>: 9
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <b>Open Issues</b>: 37
         
       </div>
@@ -149,32 +182,48 @@ for more specific data structures.</p>
   
     <div>
       <hr>
-      <h3>num</h3>
-      
-        <a href="https://crates.io/crates/num"><img src="https://img.shields.io/crates/v/num.svg?maxAge=2592000"></a>
-        <a href="https://crates.io/crates/num"><img src="https://img.shields.io/crates/d/num.svg?maxAge=2592000"></a>
-      
-      
-        <a href="https://github.com/rust-num/num"><img src="https://img.shields.io/github/stars/rust-num/num.svg?style=social&label=Star&maxAge=2592000"></a>
-      
-      
-        <a href="http://rust-num.github.io/num" style="font-size: small; vertical-align:middle;">[docs]</a>
-      
+      <h3>
+        num
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/num">crate</a> &middot;
+          <a href="https://github.com/rust-num/num">repo</a> &middot;
+          <a href="http://rust-num.github.io/num">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/num.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/num.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/rust-num/num.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
       <p>A collection of numeric types and traits for Rust, including bigint,
 complex, rational, range iterators, generic integers, and more!
 </p>
+
       <div style="font-size: small;">
+
+        
+          <b>License</b>: MIT/Apache-2.0
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
         
           <b>Last Commit</b>: 18 Aug 2016
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         
           <b>Last Published</b>: 18 Aug 2016
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         
           <b>Contributors</b>: 30
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <b>Open Issues</b>: 44
         
       </div>
@@ -182,30 +231,46 @@ complex, rational, range iterators, generic integers, and more!
   
     <div>
       <hr>
-      <h3>petgraph</h3>
-      
-        <a href="https://crates.io/crates/petgraph"><img src="https://img.shields.io/crates/v/petgraph.svg?maxAge=2592000"></a>
-        <a href="https://crates.io/crates/petgraph"><img src="https://img.shields.io/crates/d/petgraph.svg?maxAge=2592000"></a>
-      
-      
-        <a href="https://github.com/bluss/petgraph"><img src="https://img.shields.io/github/stars/bluss/petgraph.svg?style=social&label=Star&maxAge=2592000"></a>
-      
-      
-        <a href="http://bluss.github.io/petgraph" style="font-size: small; vertical-align:middle;">[docs]</a>
-      
+      <h3>
+        petgraph
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/petgraph">crate</a> &middot;
+          <a href="https://github.com/bluss/petgraph">repo</a> &middot;
+          <a href="http://bluss.github.io/petgraph">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/petgraph.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/petgraph.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/bluss/petgraph.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
       <p>Graph data structure library. Provides graph types and graph algorithms.</p>
+
       <div style="font-size: small;">
+
+        
+          <b>License</b>: MIT/Apache-2.0
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
         
           <b>Last Commit</b>: 02 May 2016
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         
           <b>Last Published</b>: 22 Apr 2016
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         
           <b>Contributors</b>: 6
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <b>Open Issues</b>: 17
         
       </div>
@@ -213,30 +278,46 @@ complex, rational, range iterators, generic integers, and more!
   
     <div>
       <hr>
-      <h3>daggy</h3>
-      
-        <a href="https://crates.io/crates/daggy"><img src="https://img.shields.io/crates/v/daggy.svg?maxAge=2592000"></a>
-        <a href="https://crates.io/crates/daggy"><img src="https://img.shields.io/crates/d/daggy.svg?maxAge=2592000"></a>
-      
-      
-        <a href="https://github.com/mitchmindtree/daggy"><img src="https://img.shields.io/github/stars/mitchmindtree/daggy.svg?style=social&label=Star&maxAge=2592000"></a>
-      
-      
-        <a href="http://mitchmindtree.github.io/daggy/daggy/" style="font-size: small; vertical-align:middle;">[docs]</a>
-      
+      <h3>
+        daggy
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/daggy">crate</a> &middot;
+          <a href="https://github.com/mitchmindtree/daggy.git">repo</a> &middot;
+          <a href="http://mitchmindtree.github.io/daggy/daggy/">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/daggy.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/daggy.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/mitchmindtree/daggy.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
       <p>A directed acyclic graph data structure library. It is Implemented on top of petgraph's Graph data structure and attempts to follow similar conventions where suitable.</p>
+
       <div style="font-size: small;">
+
+        
+          <b>License</b>: MIT/Apache-2.0
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
         
           <b>Last Commit</b>: 10 Jan 2016
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         
           <b>Last Published</b>: 10 Jan 2016
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         
           <b>Contributors</b>: 1
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <b>Open Issues</b>: 2
         
       </div>
@@ -244,30 +325,46 @@ complex, rational, range iterators, generic integers, and more!
   
     <div>
       <hr>
-      <h3>rds</h3>
-      
-        <a href="https://crates.io/crates/rds"><img src="https://img.shields.io/crates/v/rds.svg?maxAge=2592000"></a>
-        <a href="https://crates.io/crates/rds"><img src="https://img.shields.io/crates/d/rds.svg?maxAge=2592000"></a>
-      
-      
-        <a href="https://github.com/haxelion/rds"><img src="https://img.shields.io/github/stars/haxelion/rds.svg?style=social&label=Star&maxAge=2592000"></a>
-      
-      
-        <a href="https://haxelion.github.io/rds/target/doc/rds/index.html" style="font-size: small; vertical-align:middle;">[docs]</a>
-      
+      <h3>
+        rds
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/rds">crate</a> &middot;
+          <a href="https://github.com/haxelion/rds">repo</a> &middot;
+          <a href="https://haxelion.github.io/rds/target/doc/rds/index.html">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/rds.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/rds.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/haxelion/rds.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
       <p>Rust Data Science</p>
+
       <div style="font-size: small;">
+
+        
+          <b>License</b>: LGPL-3.0
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
         
           <b>Last Commit</b>: 13 Jul 2016
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         
           <b>Last Published</b>: 13 Jul 2016
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
         
           <b>Contributors</b>: 1
-          &nbsp;&nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <b>Open Issues</b>: 0
         
       </div>
