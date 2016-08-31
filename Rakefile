@@ -78,3 +78,9 @@ task :publish => [:not_dirty, :prepare_git_remote_in_build_dir, :sync, :build] d
     sh "git push #{remote_name} gh-pages"
   end
 end
+
+desc "Clean cached crate data"
+task :clean do
+  FileUtils.rm_r File.join(PROJECT_ROOT, '_tmp')
+end
+

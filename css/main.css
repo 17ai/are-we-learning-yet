@@ -16,28 +16,22 @@ body {
   flex-direction: column; }
 
 a {
-  color: #b33;
+  color: #b7410e;
   text-decoration: none;
   outline: none; }
 
 a:hover {
-  color: #932828; }
+  color: #88300a; }
 
 a:active {
-  color: #7f2323; }
-
-.github-fork-ribbon:before, .github-fork-ribbon:after {
-  background-color: #eee;
-  border-color: #333; }
-.github-fork-ribbon:after {
-  color: #333; }
+  color: #702809; }
 
 h1 {
   padding-top: 20px;
   letter-spacing: -0.2rem; }
 
 h1 strong {
-  color: #b33; }
+  color: #b7410e; }
 
 h3 {
   margin-bottom: 5px; }
@@ -47,29 +41,41 @@ b, strong {
 
 .site-header {
   padding: 5px 0;
-  font-size: 2rem;
+  font-size: 20px;
   line-height: 24px;
   background-color: #333; }
   .site-header img {
     width: 24px;
-    height: 24px; }
+    height: 24px;
+    margin-top: -3px; }
 
 .site-footer {
-  margin: 20px 0; }
+  margin: 10px 0 0px; }
 
 .site-nav-link {
   padding-left: 20px; }
 
-.site-header {
-  font-size: 24px; }
-
 .hero {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
   min-height: 360px;
   background-color: #333;
+  background-image: url("/images/gears.jpg");
   color: #ccc;
   margin-bottom: 0px; }
+
+.hero h3 {
+  margin-bottom: 20px; }
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #282828;
+  opacity: 0.92; }
 
 .tldr-headline {
   letter-spacing: -0.15rem;
@@ -77,6 +83,7 @@ b, strong {
   font-weight: bold;
   text-align: center;
   line-height: 2.75rem;
+  padding-top: 20px;
   padding-bottom: 40px; }
 
 .page-content {
@@ -87,7 +94,7 @@ b, strong {
 
 .section {
   padding-top: 60px;
-  padding-bottom: 40px; }
+  padding-bottom: 60px; }
 
 .tiles {
   font-weight: bold;
@@ -104,10 +111,11 @@ b, strong {
   align-items: center;
   justify-content: center;
   border-width: 4px 1px 1px 1px;
-  border-style: solid; }
+  border-style: solid;
+  margin-bottom: 20px; }
 
 a:hover .tile {
-  background-color: #393939; }
+  color: #ccc; }
 
 .green {
   color: #81f300; }
@@ -127,12 +135,24 @@ a:hover .tile {
 .tile-red {
   border-color: #ff3e21; }
 
+.post-content {
+  margin-bottom: 60px; }
+
 .followup {
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-bottom: 20px;
   text-align: center;
   padding: 20px 0;
   border: 2px solid orange;
   /* TODO: using colors by name is basically never good design */ }
+
+.github-corner {
+  position: absolute;
+  z-index: 100; }
+
+.crate-stat {
+  padding-right: 30px;
+  white-space: nowrap; }
 
 @media screen and (max-width: 47.9em) {
   .hide-xs {
