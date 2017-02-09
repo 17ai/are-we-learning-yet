@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Neural Networks</title>
-  <meta name="description" content="Consistent with recent deep learning trends,the Rust community has followed suit by building several experimental neural networks.">
+  <meta name="description" content="Consistent with recent deep learning trends,the Rust community has followed suit by building several neural network libraries.">
 
   <link rel="stylesheet" href="/css/flexboxgrid.min.css">
   <link rel="stylesheet" href="/css/main.css">
@@ -77,20 +77,23 @@
 
   <div class="post-content">
     <p>Consistent with recent deep learning trends,
-the Rust community has followed suit by building several experimental neural networks.</p>
+the Rust community has followed suit by building several neural network libraries.</p>
 
 <p><a href="https://crates.io/crates/leaf">Leaf</a> made a huge splash in the community
 and included great resources like the <a href="http://autumnai.com/leaf/book/">Leaf Book</a>
 and talks like <a href="https://air.mozilla.org/rust-berlin-machine-learning-leaf-and-collenchyma/">this one</a>.
-But <a href="https://medium.com/@mjhirn/tensorflow-wins-89b78b29aafb#.pvv7a6dm7">the team behind Leaf moved on</a>,
-and despite over 4k GitHub stars has <a href="https://github.com/autumnai/leaf/issues/108">yet to find a new maintainer</a>.</p>
+Unfortunately <a href="https://medium.com/@mjhirn/tensorflow-wins-89b78b29aafb#.pvv7a6dm7">the team behind Leaf moved on</a>,
+but there is interest and a small amount of activity in possibly <a href="https://github.com/autumnai/leaf/issues/108">reviving a fork</a>.</p>
 
 <p>Taking a page from python’s scikit-learn project, <a href="https://crates.io/crates/rusty-machine">rusty-machine</a>
 is one of the most actively developed ML crates in the Rust ecosystem. It also powers
 <a href="https://learning-machines.herokuapp.com/">Learning Machines</a>, a set of interactive tutorials on machine learning,
 and <a href="http://athemathmo.github.io/2016/07/28/rusty-machine-talk.html#/">this presentation</a> provides a solid introduction.</p>
 
-<p>Other neural network libraries have been created, but seem to mostly exist as experimental projects.
+<p>And check out the much newer <a href="https://crates.io/crates/alumina">alumina</a> crate, the backbone of the easy-to-use
+“super resolution” image enhancer <a href="https://github.com/millardjn/rusty_sr">rusty_sr</a>.</p>
+
+<p>Other neural network libraries have been created, but often exist as experimental projects.
 Some of the projects listed hear appear to be inactive, but are still listed to serve as an inspiration
 for any future projects.</p>
 
@@ -172,14 +175,14 @@ for any future projects.</p>
           <span class="crate-stat"><b>License</b>: Apache-2.0</span>
         
         
-          <span class="crate-stat"><b>Last Commit</b>: 29 Jan 2017</span>
+          <span class="crate-stat"><b>Last Commit</b>: 08 Feb 2017</span>
         
         
           <span class="crate-stat"><b>Last Published</b>: 08 Jan 2017</span>
         
         
           <span class="crate-stat"><b>Contributors</b>: 8</span>
-          <span class="crate-stat"><b>Open Issues</b>: 7</span>
+          <span class="crate-stat"><b>Open Issues</b>: 8</span>
         
       </div>
     </div>
@@ -392,6 +395,49 @@ for any future projects.</p>
         
           <span class="crate-stat"><b>Contributors</b>: 1</span>
           <span class="crate-stat"><b>Open Issues</b>: 2</span>
+        
+      </div>
+    </div>
+  
+    <div>
+      <hr>
+      <h3>
+        alumina
+        <span style="font-size: small; vertical-align:middle;">
+          [
+          <a href="https://crates.io/crates/alumina">crate</a> &middot;
+          <a href="https://github.com/millardjn/alumina">repo</a> &middot;
+          <a href="https://docs.rs/crate/alumina">docs</a>
+          ]
+        </span>
+      </h3>
+
+      <div style="line-height:1;">
+        
+          <img src="https://img.shields.io/crates/v/alumina.svg?maxAge=2592000">
+          <img src="https://img.shields.io/crates/d/alumina.svg?maxAge=2592000">
+        
+        
+          <img src="https://img.shields.io/github/stars/millardjn/alumina.svg?style=social&label=Star&maxAge=2592000">
+        
+      </div>
+
+      <p>An Experimental Deep Learning Library</p>
+
+      <div style="font-size: small;">
+
+        
+          <span class="crate-stat"><b>License</b>: MIT</span>
+        
+        
+          <span class="crate-stat"><b>Last Commit</b>: 08 Feb 2017</span>
+        
+        
+          <span class="crate-stat"><b>Last Published</b>: 08 Feb 2017</span>
+        
+        
+          <span class="crate-stat"><b>Contributors</b>: 1</span>
+          <span class="crate-stat"><b>Open Issues</b>: 0</span>
         
       </div>
     </div>
